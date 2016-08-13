@@ -27,7 +27,7 @@
     <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
     <p class="description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     <div class="column-reason">
-      <h2>Настоящий городок</h2>
+      <p>Настоящий городок</p>
       <p>— №1 —</p>
       <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
     </div>
@@ -36,15 +36,15 @@
     </div>
     <div class="additional-reasons">
       <div class="reason">
-        <h2>Жилье</h2>
+        <p>Жилье</p>
         <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
       </div>
       <div class="reason">
-        <h2>Еда</h2>
+        <p>Еда</p>
         <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
       </div>
       <div class="reason">
-        <h2>Сувениры</h2>
+        <p>Сувениры</p>
         <p>Не только китайского, но и местного производства!</p>
       </div>
     </div>
@@ -52,48 +52,63 @@
       <img src="#" height="255" width="800" alt="Sedona Devil Bridge">
     </div>
     <div class="column-reason">
-      <h2>Там есть мост дьявола</h2>
+      <p>Там есть мост дьявола</p>
       <p>— №2 —</p>
       <p>Да, по нему можно пройти! Если, конечно, вы осмелитесь</p>
     </div>
     <div class="last-reasons">
       <div class="reason">
-        <h2>Небольшая площадь</h2>
+        <p>Небольшая площадь</p>
         <p>— №3 —</p>
         <p>Все достопримечательности находятся очень близко</p>
       </div>
       <div class="reason">
-        <h2>Красивая дорога</h2>
+        <p>Красивая дорога</p>
         <p>— №4 —</p>
         <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
       </div>
       <div class="reason">
-        <h2>Мало туристов</h2>
+        <p>Мало туристов</p>
         <p>— №5 —</p>
         <p>Большинство едет в Гранд Каньон и толпится там</p>
       </div>
     </div>
     <section class="search-header">
-      <p class="interested">Заинтересовались?</p>
+      <h1>Заинтересовались?</h1>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-      <h2 class="search-title">Поиск гостиницы в Седоне</h2>
+      <h2>Поиск гостиницы в Седоне</h2>
     </section>
     <section class="search-body">
       <form class="search" action="#" method="post">
-        <label>
-            Дата заезда: <input type="text" name="date-in">
-          </label><br>
-        <label>
-            Дата выезда: <input type="text" name="date-out">
-          </label><br>
-        <label for="adults-count">Взрослые:</label>
-        <button type="button">-</button>
-        <input type="text" id="adults-count" value="2">
-        <button type="button">+</button>
-        <label for="children-count">Дети:</label>
-        <button type="button">-</button>
-        <input type="text" id="children-count" value="0">
-        <button type="button">+</button>
+        <p>
+          <label for="date-in-id">Дата заезда:</label>
+          <span> 
+            <input type="text" name="date-in" id="date-in-id">
+          </span>
+        </p>
+        <p>
+          <label for="date-out-id">Дата выезда:</label>
+          <span> 
+            <input type="text" name="date-out" id="date-out-id">
+          </span>
+        </p>
+        <p>
+          <label for="adults-id">Взрослые</label>
+          <span>
+      <button>-</button>
+      <input type="text" name="adults" id="adults-id">
+      <button>+</button>
+          </span>
+        </p>
+        <p>
+          <label for="children-id">Дети:</label>
+          <span>
+      <button>-</button>
+      <input type="text" name="children" id="children-id">
+      <button>+</button>
+          </span>
+        </p>
+        <button type="submit">Найти</button>
       </form>
     </section>
   </main>
