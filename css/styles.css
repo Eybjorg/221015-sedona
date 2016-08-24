@@ -192,14 +192,66 @@ h3 {
   text-align: center;
 }
 
-.search-form {
-  display: none;
-}
-
 .map {
   width: 100%;
   height: 472px;
   overflow: hidden;
+}
+
+.search-button {
+  width: 508 px;
+  margin: 0 auto;
+  padding: 30px;
+  display: block;
+}
+
+.search {
+  position: relative;
+}
+
+.search-form {
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 458 px;
+  background: #ffffff;
+  padding: 40px 55px;
+  font-size: 0px;
+}
+
+.search-form p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.search-form label {
+  width: 100px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 21px;
+}
+
+.date {
+  width: 328px;
+  height: 20px;
+  padding: 10px;
+  border: 0px;
+}
+
+.quantity,
+tune {
+  width: 40px;
+  height;
+  40px;
+}
+
+.submit {
+  width: 458px;
+  margin: 0 auto;
+  height: 58px;
 }
 
 .main-footer {
@@ -211,13 +263,14 @@ h3 {
 .main-footer p {
   width: 20%;
   float: left;
-  margin-right: 15%;
+  margin-right: 10%;
+  margin-left: 10%
 }
 
 .footer-social {
   width: 20%;
   float: left;
-  margin-right: 15%;
+  margin-right: 10%;
   margin-top: 14px;
   margin-bottom: 14px;
 }
@@ -227,11 +280,4 @@ h3 {
   float: right;
   margin-top: 14px;
   margin-bottom: 14px;
-}
-
-.search-button {
-  width: 505px;
-  margin: 0 auto;
-  padding: 30px;
-  display: block;
 }

@@ -99,39 +99,40 @@
           <img src="img/map.jpg" width="1200" height="593" alt="Sedona map">
         </div>
 
-        <div class="search-form">
-          <form class="search" action="#" method="post">
-            <p>
-              <label for="date-in-id">Дата заезда:</label>
-              <span> 
-            <input type="text" name="date-in" id="date-in-id" >
+        <form class="search-form" action="#" method="post">
+          <p>
+            <label for="date-in-id">Дата заезда:</label>
+            <span> 
+            <input type="date" name="date-in" id="date-in-id" class="date">
           </span>
-            </p>
-            <p>
-              <label for="date-out-id">Дата выезда:</label>
-              <span> 
-            <input type="text" name="date-out" id="date-out-id">
+          </p>
+          <p>
+            <label for="date-out-id">Дата выезда:</label>
+            <span> 
+            <input type="date" name="date-out" id="date-out-id" class="date">
           </span>
-            </p>
-            <p>
+          </p>
+          <div class="numbers clearfix">
+            <p class="leftfloat">
               <label for="adults-id">Взрослые</label>
               <span>
-              <button type="button">-</button>
-              <input type="text" name="adults" id="adults-id">
-              <button type="button">+</button>
+              <button type="button" class="tune">-</button>
+              <input type="number" name="adults" id="adults-id" class="quantity">
+              <button type="button" class="tune">+</button>
             </span>
             </p>
-            <p>
+            <p class="rightfloat">
               <label for="children-id">Дети:</label>
               <span>
-              <button type="button">-</button>
-              <input type="text" name="children" id="children-id">
-              <button type="button">+</button>
+              <button type="button" class="tune">-</button>
+              <input type="number" name="children" id="children-id" class="quantity">
+              <button type="button" class="tune">+</button>
             </span>
             </p>
-            <button type="submit">Найти</button>
-          </form>
-        </div>
+          </div>
+          <button type="submit" class="submit">Найти</button>
+        </form>
+
       </section>
     </main>
 
