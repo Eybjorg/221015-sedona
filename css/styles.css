@@ -3,6 +3,12 @@ body {
   line-height: 24px;
   font-family: "PT Sans Bold";
   font-weight: normal;
+  background: #f2f2f2 url("../sedona-index-1200.jpg") no-repeat 50% 3px;
+  margin: 0px;
+}
+
+* {
+  color: transparent;
 }
 
 h1 {
@@ -23,4 +29,206 @@ h3 {
   line-height: 21px;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+.container {
+  min-width: 768px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.index-header {
+  font-size: 0px;
+  position: relative;
+  background: #ffffff;
+}
+
+.header-nav {
+  margin: 0 6%;
+  padding: 0px;
+}
+
+.header-nav ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.header-nav li {
+  display: inline-block;
+  width: 20%;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  float: left;
+}
+
+.header-nav li:nth-child(4),
+.header-nav li:nth-child(5) {
+  text-align: right;
+  float: right;
+}
+
+.header-nav a {
+  font-size: 14px;
+}
+
+.header-nav img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.large-promo {
+  background-color: #9bb4d0;
+  background-image: url("../img/white-triangles.png"), url("../img/background-photo.jpg");
+  background-position: 50% 100%, 50% 0%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 60px, cover;
+  height: 510px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.large-promo img {
+  margin-top: 70px;
+}
+
+.lead {
+  width: 520px;
+  margin: 0 auto 53px;
+  text-align: center;
+}
+
+.description {
+  margin-top: 25px;
+}
+
+.column {
+  height: 255px;
+  padding: 0px;
+}
+
+.column-reason {
+  background-color: #81b3d2;
+  width: 34%;
+  height: 255px;
+}
+
+.column-photo {
+  width: 66%;
+  font-size: 0px;
+  height: 255px;
+  overflow: hidden;
+}
+
+.rightfloat {
+  float: right;
+}
+
+.leftfloat {
+  float: left;
+}
+
+.column-reason h3 {
+  margin: 50px auto 25px;
+  width: 155px;
+  text-align: center;
+}
+
+.column-reason p {
+  margin: 30px auto 0px;
+  width: 200px;
+  text-align: center;
+}
+
+.reasons,
+.last-reasons {
+  padding: 0px;
+  list-style: none;
+  margin: 0px;
+}
+
+.reasons {
+  height: 330px;
+}
+
+.reasons li,
+.last-reasons li {
+  display: inline;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.reason h3 {
+  margin: 145px auto 0px;
+}
+
+.reason p {
+  margin: 30px auto;
+}
+
+.last-reasons {
+  height: 255px;
+}
+
+.interested h2 {
+  margin: 55px auto 35px;
+  width: 315px;
+  text-align: center;
+}
+
+.interested p {
+  margin: 0 auto 45px;
+  width: 450px;
+  text-align: center;
+}
+
+.search-form {
+  display: none;
+}
+
+.map {
+  width: 100%;
+  height: 472px;
+  overflow: hidden;
+  margin-top: 130px;
+}
+
+.main-footer {
+  /*стереть потом*/
+  min-height: 50px;
+  padding: 37px 0px;
+}
+
+.main-footer p {
+  width: 20%;
+  float: left;
+  margin-right: 15%;
+}
+
+.footer-social {
+  width: 20%;
+  float: left;
+  margin-right: 15%;
+}
+
+.footer-copyright {
+  width: 30%;
+  float: right;
+}
+
+.search-button {
+  width: 505px;
+  margin: 0 auto;
+  padding: 30px;
+  display: block;
 }
