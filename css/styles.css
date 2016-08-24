@@ -200,7 +200,6 @@ h3 {
   width: 100%;
   height: 472px;
   overflow: hidden;
-  margin-top: 130px;
 }
 
 .main-footer {
@@ -219,11 +218,15 @@ h3 {
   width: 20%;
   float: left;
   margin-right: 15%;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .footer-copyright {
   width: 30%;
   float: right;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .search-button {
