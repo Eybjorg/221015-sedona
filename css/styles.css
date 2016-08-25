@@ -39,6 +39,30 @@ main {
   display: block;
 }
 
+.sprite {
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-food {
+  width: 74px;
+  height: 70px;
+  background-position: -10px -10px;
+}
+
+.sprite-house {
+  width: 75px;
+  height: 72px;
+  background-position: -10px -100px;
+}
+
+.sprite-souvenirs {
+  width: 64px;
+  height: 76px;
+  background-position: -10px -192px;
+}
+
 h1 {
   font-size: 30px;
   font-weight: normal;
@@ -205,10 +229,6 @@ h3 {
   margin: 0px;
 }
 
-.reasons {
-  height: 330px;
-}
-
 .reasons li,
 .last-reasons li {
   display: inline-block;
@@ -223,7 +243,7 @@ h3 {
 }
 
 .reason p {
-  margin: 30px auto;
+  margin: 30px auto 85px;
 }
 
 .last-reasons {
