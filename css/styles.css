@@ -1,20 +1,26 @@
 body {
   font-size: 14px;
-  line-height: 24px;
-  font-family: "PT Sans Bold";
+  line-height: 26px;
+  font-family: "PT Sans Regular", "Arial", sans-serif;
   font-weight: normal;
-  background: #f2f2f2/*url("../sedona-hotels-1200.jpg") no-repeat 50% 3px*/
-  ;
+  text-transform: uppercase;
+  background: #f2f2f2;
   margin: 0px;
   padding: 0px;
 }
 
-.container {
-  background: #ffffff;
+@font-face {
+  font-family: 'pt_sansregular';
+  src: url('../fonts/pts55f-webfont.woff2') format('woff2'), url('../fonts/pts55f-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-* {
-  color: transparent;
+@font-face {
+  font-family: 'pt_sansbold';
+  src: url('../fonts/pts75f-webfont.woff2') format('woff2'), url('../fonts/pts75f-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 img {
@@ -26,6 +32,7 @@ h1 {
   font-size: 30px;
   font-weight: normal;
   text-transform: uppercase;
+  font-family: "PT Sans Bold", "Arial", sans-serif;
 }
 
 h2 {
@@ -33,6 +40,7 @@ h2 {
   line-height: 26px;
   font-weight: normal;
   text-transform: uppercase;
+  font-family: "PT Sans Bold", "Arial", sans-serif;
 }
 
 h3 {
@@ -40,12 +48,14 @@ h3 {
   line-height: 21px;
   font-weight: normal;
   text-transform: uppercase;
+  font-family: "PT Sans Bold", "Arial", sans-serif;
 }
 
 .container {
   min-width: 768px;
   max-width: 1200px;
   margin: 0 auto;
+  background: #ffffff;
 }
 
 .clearfix::after {
@@ -88,7 +98,20 @@ h3 {
 }
 
 .header-nav a {
+  font-family: "PT Sans Bold", "Arial", sans-serif;
   font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-nav a:hover {
+  color: #81b3d2;
+}
+
+.active a,
+.active a:hover,
+.header-nav a:active {
+  color: #9b8d84;
 }
 
 .header-nav img {
