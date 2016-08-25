@@ -380,3 +380,58 @@ tune {
   vertical-align: middle;
   margin: 0px;
 }
+
+.hotel {
+  border-bottom: #fefefe 1px solid;
+}
+
+.hotel-photo {
+  padding: 30px 0px;
+  margin: 0px;
+  /*убрать и заменить на что-то пристойное*/
+  height: 90px;
+}
+
+.hotel-description {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+.hotel-info h2 {
+  margin: 0px;
+  padding: 5px;
+}
+
+.hotel-book {
+  padding: 10px;
+}
+
+.hotel-info span {
+  padding: 20px;
+}
+
+.hotel-additionalinfo {
+  width: 108px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.hotel-bookbutton {
+  width: 142px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.rating {
+  width: 15%;
+  float: right;
+}
+
+.rating p {
+  margin: 30px;
+}
+
+
+}
