@@ -12,6 +12,11 @@ body {
   color: transparent;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h1 {
   font-size: 30px;
   font-weight: normal;
@@ -114,14 +119,13 @@ h3 {
 }
 
 .column {
-  height: 255px;
   padding: 0px;
 }
 
 .column-reason {
   background-color: #81b3d2;
   width: 34%;
-  height: 255px;
+  min-height: 255px;
 }
 
 .column-photo {
