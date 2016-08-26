@@ -3,8 +3,9 @@ body {
   line-height: 24px;
   font-family: "PT Sans Bold";
   font-weight: normal;
-  background: #f2f2f2 url("../sedona-index-1200.jpg") no-repeat 50% 3px;
+  background: #f2f2f2 url("../sedona-hotels-1200.jpg") no-repeat 50% 3px;
   margin: 0px;
+  padding: 0px;
 }
 
 * {
@@ -43,7 +44,7 @@ h3 {
   clear: both;
 }
 
-.index-header {
+.header {
   font-size: 0px;
   position: relative;
   background: #ffffff;
@@ -61,6 +62,7 @@ h3 {
 
 .header-nav li {
   display: inline-block;
+  vertical-align: top;
   width: 20%;
   height: 20px;
   padding-top: 20px;
@@ -162,7 +164,8 @@ h3 {
 
 .reasons li,
 .last-reasons li {
-  display: inline;
+  display: inline-block;
+  vertical-align: top;
   width: 33%;
   float: left;
   text-align: center;
@@ -231,6 +234,7 @@ h3 {
   width: 100px;
   margin-right: 10px;
   display: inline-block;
+  vertical-align: baseline;
   font-size: 21px;
 }
 
@@ -248,6 +252,11 @@ tune {
   40px;
 }
 
+.search-form label,
+.search-form span {
+  vertical-align: middle;
+}
+
 .submit {
   width: 458px;
   margin: 0 auto;
@@ -260,7 +269,8 @@ tune {
   padding: 37px 0px;
 }
 
-.main-footer p {
+.main-footer p,
+.search-footer p {
   width: 20%;
   float: left;
   margin-right: 10%;
@@ -280,4 +290,83 @@ tune {
   float: right;
   margin-top: 14px;
   margin-bottom: 14px;
+}
+
+.filter {
+  background: #698dae url("../img/filter-background.jpg") no-repeat;
+  background-size: cover;
+  height: 218px;
+}
+
+.infrastructure {
+  width: 20%;
+  margin-left: 6%;
+  float: left;
+}
+
+.accomodation-type {
+  width: 24%;
+  margin-right: 16%;
+  float: left;
+}
+
+.daily-price {
+  width: 28%;
+  margin-right: 6%;
+  float: right;
+}
+
+.options ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.options li {
+  margin: 25px 0px;
+}
+
+.daily-price button {
+  width: 140px;
+  margin: 0 auto;
+  display: block;
+}
+
+.results {
+  margin: 0 6%;
+}
+
+.found {
+  width: 160px;
+  float: left;
+  margin: 0px;
+}
+
+.results-header {
+  min-height: 25px;
+  padding: 25px 0px;
+}
+
+.sort-results {
+  width: 30%;
+  float: left;
+  margin: 0px;
+}
+
+.sort-header {
+  margin-right: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+
+.sort {
+  padding: 0px;
+  list-style: none;
+}
+
+.sort li,
+{
+  display: inline;
+  vertical-align: middle;
+  margin-right: 30px;
 }
