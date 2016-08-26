@@ -344,6 +344,7 @@ tune {
 .results-header {
   min-height: 25px;
   padding: 25px 0px;
+  border-bottom: #fefefe 1px solid;
 }
 
 .sort-results {
@@ -362,11 +363,13 @@ tune {
 .sort {
   padding: 0px;
   list-style: none;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .sort li,
 {
-  display: inline;
+  display: inline-block;
   vertical-align: middle;
   margin-right: 30px;
 }
