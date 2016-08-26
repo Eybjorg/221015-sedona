@@ -71,8 +71,8 @@ h3 {
   float: left;
 }
 
-.header-nav li:nth-child(4),
-.header-nav li:nth-child(5) {
+.header-nav li:nth-child(3),
+.header-nav li:nth-child(4) {
   text-align: right;
   float: right;
 }
@@ -342,13 +342,11 @@ tune {
 }
 
 .results-header {
-  min-height: 25px;
-  padding: 25px 0px;
+  padding: 28px 0px;
   border-bottom: #fefefe 1px solid;
 }
 
 .sort-results {
-  width: 30%;
   float: left;
   margin: 0px;
 }
@@ -365,10 +363,16 @@ tune {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
+  margin: 0 auto;
 }
 
 .sort li {
   display: inline-block;
   vertical-align: middle;
   margin-right: 30px;
+}
+
+.sort-arrow {
+  vertical-align: middle;
+  margin: 0px;
 }
