@@ -267,15 +267,20 @@ h3 {
 }
 
 .search-form label {
-  width: 100px;
-  margin-right: 10px;
+  width: 25%;
   display: inline-block;
   vertical-align: baseline;
   font-size: 21px;
 }
 
+.dates span {
+  width: 75%;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
 .date {
-  width: 328px;
+  width: 100%;
   height: 20px;
   padding: 10px;
   border: 0px;
@@ -283,9 +288,7 @@ h3 {
 
 .quantity,
 tune {
-  width: 40px;
-  height;
-  40px;
+  width: 10%;
 }
 
 .search-form label,
