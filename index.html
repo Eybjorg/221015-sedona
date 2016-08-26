@@ -41,8 +41,8 @@
       </section>
       <section class="column clearfix">
         <div class="column-reason leftfloat count">
-          <h3>Настоящий городок</h3>
-          <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
+          <h3>Настоящий<br>городок</h3>
+          <p>Седона — не аттракцион для туристов,<br> там течет своя жизнь</p>
         </div>
         <div class="column-photo leftfloat">
           <img src="img/open-range.jpg" height="255" width="800" alt="Sedona Open Range">
@@ -52,15 +52,15 @@
       <ul class="reasons clearfix">
         <li class="reason house">
           <h3>Жилье</h3>
-          <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          <p>Рекомендуем пожить в настоящем мотеле,<br> все как в кино!</p>
         </li>
         <li class="reason food">
           <h3>Еда</h3>
-          <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          <p>Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
         </li>
         <li class="reason souvenirs">
           <h3>Сувениры</h3>
-          <p>Не только китайского, но и местного производства!</p>
+          <p>Не только китайского,<br> но и местного производства!</p>
         </li>
       </ul>
 
@@ -68,69 +68,72 @@
         <div class="column-photo leftfloat">
           <img src="img/devil-bridge.jpg" height="255" width="800" alt="Sedona Devil Bridge">
         </div>
-        <div class="column-reason rightfloat count">
-          <h3>Там есть мост дьявола</h3>
-          <p>Да, по нему можно пройти! Если, конечно, вы осмелитесь</p>
+        <div class="column-reason leftfloat count">
+          <h3>Там есть<br>мост дьявола</h3>
+          <p>Да, по нему можно пройти! Если конечно<br> вы осмелитесь</p>
         </div>
       </section>
-      <ul class="last-reasons">
+      <ul class="last-reasons clearfix">
         <li class="reason count">
           <h3>Небольшая площадь</h3>
-          <p>Все достопримечательности находятся очень близко</p>
+          <p>Все достопримечательности<br>находятся очень близко</p>
         </li>
         <li class="reason count">
           <h3>Красивая дорога</h3>
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <p>Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
         </li>
         <li class="reason count">
           <h3>Мало туристов</h3>
-          <p>Большинство едет в Гранд Каньон и толпится там</p>
+          <p>Большинство едет в Гранд Каньон и <br>толпится там</p>
         </li>
       </ul>
       <section class="search">
         <div class="interested">
           <h2>Заинтересовались?</h2>
-          <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <p>Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        </div>
+
+        <div class="search-container">
           <a class="search-button" href="#">Поиск гостиницы в Седоне</a>
+          <form class="search-form" action="#" method="post">
+            <p>
+              <label for="date-in-id">Дата заезда:</label>
+              <span> 
+            <input type="date" name="date-in" id="date-in-id" class="date">
+          </span>
+            </p>
+            <p>
+              <label for="date-out-id">Дата выезда:</label>
+              <span> 
+            <input type="date" name="date-out" id="date-out-id" class="date">
+          </span>
+            </p>
+            <div class="numbers clearfix">
+              <p class="leftfloat">
+                <label for="adults-id">Взрослые</label>
+                <span>
+              <button type="button" class="tune">-</button>
+              <input type="number" name="adults" id="adults-id" class="quantity">
+              <button type="button" class="tune">+</button>
+            </span>
+              </p>
+              <p class="rightfloat">
+                <label for="children-id">Дети:</label>
+                <span>
+              <button type="button" class="tune">-</button>
+              <input type="number" name="children" id="children-id" class="quantity">
+              <button type="button" class="tune">+</button>
+            </span>
+              </p>
+            </div>
+            <button type="submit" class="submit">Найти</button>
+          </form>
         </div>
 
         <div class="map">
           <img src="img/map.jpg" width="1200" height="593" alt="Sedona map">
         </div>
 
-        <form class="search-form" action="#" method="post">
-          <p>
-            <label for="date-in-id">Дата заезда:</label>
-            <span> 
-            <input type="date" name="date-in" id="date-in-id" class="date">
-          </span>
-          </p>
-          <p>
-            <label for="date-out-id">Дата выезда:</label>
-            <span> 
-            <input type="date" name="date-out" id="date-out-id" class="date">
-          </span>
-          </p>
-          <div class="numbers clearfix">
-            <p class="leftfloat">
-              <label for="adults-id">Взрослые</label>
-              <span>
-              <button type="button" class="tune">-</button>
-              <input type="number" name="adults" id="adults-id" class="quantity">
-              <button type="button" class="tune">+</button>
-            </span>
-            </p>
-            <p class="rightfloat">
-              <label for="children-id">Дети:</label>
-              <span>
-              <button type="button" class="tune">-</button>
-              <input type="number" name="children" id="children-id" class="quantity">
-              <button type="button" class="tune">+</button>
-            </span>
-            </p>
-          </div>
-          <button type="submit" class="submit">Найти</button>
-        </form>
 
       </section>
     </main>
