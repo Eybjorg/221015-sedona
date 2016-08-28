@@ -22,6 +22,121 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "symbols-sedona";
+  src: url("../fonts/symbols-sedona.woff") format("woff"), url("../fonts/symbols-sedona.woff2") format("woff2");
+}
+
+.social-btn {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #81b3d2;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 13px;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  /*margin-right: 0.2em;
+  margin-left: 0.2em;*/
+  font-weight: normal;
+  line-height: 1em;
+  font-family: "symbols-sedona";
+  text-align: center;
+  text-transform: none;
+  text-decoration: inherit;
+  font-style: normal;
+  font-variant: normal;
+  speak: none;
+}
+
+.icon-facebook::before {
+  content: "\66";
+}
+
+
+/* "f" */
+
+.icon-twitter::before {
+  content: "\74";
+}
+
+
+/* "t" */
+
+.icon-up-dir::before {
+  content: "\25b2";
+}
+
+
+/* "▲" */
+
+.icon-down-dir::before {
+  content: "\25bc";
+}
+
+
+/* "▼" */
+
+.icon-star::before {
+  content: "\2605";
+}
+
+
+/* "★" */
+
+.icon-check-off::before {
+  content: "\2610";
+}
+
+
+/* "☐" */
+
+.icon-check-on::before {
+  content: "\2611";
+}
+
+
+/* "☑" */
+
+.icon-calendar::before {
+  content: "\e800";
+}
+
+
+/* "" */
+
+.icon-plus::before {
+  content: "\e801";
+}
+
+
+/* "" */
+
+.icon-minus::before {
+  content: "\e802";
+}
+
+
+/* "" */
+
+.icon-youtube::before {
+  content: "\f39e";
+}
+
+
+/* "" */
+
 img {
   max-width: 100%;
   height: auto;
@@ -32,7 +147,7 @@ main {
 }
 
 .count p:first-of-type:before {
-  content: "– № " counter(item) "–";
+  content: "— № " counter(item) " —";
   counter-increment: item;
   display: block;
   margin: 15px auto;
@@ -241,6 +356,13 @@ h3 {
   margin: 0 auto;
   padding: 30px;
   display: block;
+  background-color: #766357;
+  text-align: center;
+}
+
+.search-button a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .search-container {
@@ -316,7 +438,7 @@ tune {
 .search-footer p {
   width: 20%;
   float: left;
-  margin: 0px;
+  margin-top: 13px;
 }
 
 .footer-social {
@@ -327,6 +449,18 @@ tune {
 .footer-copyright {
   width: 20%;
   float: right;
+  font-size: 14px;
+  padding-top: 7px;
+}
+
+.footer-copyright span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-copyright img {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .filter {
