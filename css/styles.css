@@ -655,13 +655,17 @@
     .sort-results {
       float: left;
       margin: 0px;
+      padding-top: 5px;
+      font-size: 12px;
+      line-height: 18px;
     }
     
     .sort-header {
       margin-right: 40px;
       margin-top: 0px;
       margin-bottom: 0px;
-      float: left;
+      display: inline-block;
+      vertical-align: middle;
     }
     
     .sort {
@@ -669,18 +673,37 @@
       list-style: none;
       display: inline-block;
       vertical-align: middle;
-      margin: 0 auto;
+      margin: 0px;
     }
     
     .sort li {
       display: inline-block;
       vertical-align: middle;
-      margin-right: 30px;
+      padding-right: 30px;
+    }
+    
+    .sort a {
+      color: #cacaca;
+      text-decoration: none;
+      border-bottom: 1px dotted #81b3d2;
+    }
+    
+    .active a {
+      color: #81b3d2;
+      border: none;
     }
     
     .sort-arrow {
       vertical-align: middle;
       margin: 0px;
+    }
+    
+    .sort-arrow a {
+      color: #cccccc;
+    }
+    
+    .sort-arrow a.active {
+      color: #81b3d2;
     }
     
     .hotel {
@@ -717,6 +740,7 @@
       display: inline-block;
       vertical-align: middle;
       padding-right: 20px;
+      padding-left: 5px;
     }
     
     .hotel-additionalinfo {
@@ -724,12 +748,23 @@
       display: inline-block;
       vertical-align: middle;
       margin-right: 5px;
+      border: 0;
+      background: #81b3d2;
+      color: #Ffffff;
+      height: 27px;
+      text-decoration: none;
+      text-align: center;
     }
     
     .hotel-bookbutton {
       width: 142px;
+      height: 27px;
+      text-decoration: none;
+      text-align: center;
       display: inline-block;
       vertical-align: middle;
+      background: #766357;
+      color: #Ffffff;
     }
     
     .rating {
