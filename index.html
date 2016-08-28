@@ -103,35 +103,37 @@
               <p>
                 <label for="date-in-id">Дата заезда:</label>
                 <span> 
-            <input type="date" name="date-in" id="date-in-id" class="date">
-          </span>
+            <input type="text" name="date-in" id="date-in-id" class="date">
+                  <div class="calendar icon-calendar"></div>
+                </span>
               </p>
               <p>
                 <label for="date-out-id">Дата выезда:</label>
                 <span> 
-            <input type="date" name="date-out" id="date-out-id" class="date">
+            <input type="text" name="date-out" id="date-out-id" class="date">
+                  <div class="calendar icon-calendar"></div>
                 </span>
               </p>
             </div>
             <div class="numbers clearfix">
               <p class="leftfloat">
-                <label for="adults-id">Взрослые</label>
+                <label for="adults-id">Взрослые:</label>
                 <span>
-              <button type="button" class="tune">-</button>
-              <input type="number" name="adults" id="adults-id" class="quantity">
-              <button type="button" class="tune">+</button>
-            </span>
+                  <button type="button" class="tune icon-minus"></button>
+                  <input type="text" name="adults" id="adults-id" class="quantity">
+                  <button type="button" class="tune icon-plus"></button>
+                </span>
               </p>
               <p class="rightfloat">
                 <label for="children-id">Дети:</label>
                 <span>
-              <button type="button" class="tune">-</button>
-              <input type="number" name="children" id="children-id" class="quantity">
-              <button type="button" class="tune">+</button>
-            </span>
+                  <button type="button" class="tune icon-minus"></button>
+                  <input type="text" name="children" id="children-id" class="quantity">
+                  <button type="button" class="tune icon-plus"></button>
+                </span>
               </p>
             </div>
-            <button type="submit" class="submit">Найти</button>
+            <button type="submit" class="submit-search">Найти</button>
           </form>
         </div>
 
