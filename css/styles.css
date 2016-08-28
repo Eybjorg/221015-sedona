@@ -38,30 +38,6 @@ main {
   margin: 15px auto;
 }
 
-.sprite {
-  background-image: url(../img/sprite.png);
-  background-repeat: no-repeat;
-  display: block;
-}
-
-.sprite-food {
-  width: 74px;
-  height: 70px;
-  background-position: -10px -10px;
-}
-
-.sprite-house {
-  width: 75px;
-  height: 72px;
-  background-position: -10px -100px;
-}
-
-.sprite-souvenirs {
-  width: 64px;
-  height: 76px;
-  background-position: -10px -192px;
-}
-
 h1 {
   font-size: 30px;
   font-weight: normal;
@@ -166,7 +142,6 @@ h3 {
 }
 
 .lead {
-  width: 520px;
   margin: 0 auto 53px;
   text-align: center;
 }
@@ -206,8 +181,32 @@ h3 {
   float: left;
 }
 
+.sprite {
+  display: block;
+  height: 80px;
+  width: 80px;
+  font-size: 0px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #ffffff;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+
+.sprite-food {
+  background-position: -6px -10px;
+}
+
+.sprite-house {
+  background-position: -10px -100px;
+}
+
+.sprite-souvenirs {
+  background-position: -3px -192px;
+}
+
 .reasons {
-  padding: 140px 0px 70px;
+  padding: 60px 0px 70px;
   list-style: none;
   margin: 0px;
 }
