@@ -389,6 +389,7 @@
     }
     
     .calendar {
+      display: block;
       position: absolute;
       right: 0;
       top: 0;
@@ -404,13 +405,51 @@
     }
     /* конец куска с ширинами */
     
+    .calendar:hover {
+      color: #000000;
+    }
+    
+    .calendar:active {
+      color: #81b3d2;
+    }
+    
     .date {
       width: 100%;
-      height: 20px;
+      height: 38px;
       padding: 9px;
       border: 0px;
       text-transform: uppercase;
       background-color: #f2f2f2;
+      box-sizing: border-box;
+      font-size: 14px;
+      font-family: "PT Sans Bold", "Arial", sans-serif;
+      border: none;
+    }
+    
+    .date:hover,
+    .quantity:hover,
+    {
+      background: #ebebeb;
+      border: none;
+    }
+    
+    .date:focus,
+    .quantity:focus {
+      background: #ffffff;
+      outline: 1px solid #e5e5e5;
+    }
+    
+    .tune:hover {
+      color: #000000;
+    }
+    
+    .tune:active {
+      color: #81b3d2;
+      outline: none;
+    }
+    
+    .tune:focus {
+      outline: none;
     }
     
     .numbers span {
