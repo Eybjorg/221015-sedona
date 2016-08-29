@@ -84,6 +84,15 @@
       padding: 13px;
     }
     
+    .social-btn:hover {
+      background-color: #669ec0;
+    }
+    
+    .social-btn:active {
+      background-color: #5496bd;
+      color: #88b6d1;
+    }
+    
     [class^="icon-"]::before,
     [class*=" icon-"]::before {
       display: inline-block;
@@ -189,6 +198,7 @@
     .header-nav a {
       font-family: "PT Sans Bold", "Arial", sans-serif;
       font-size: 14px;
+      line-height: 26px;
       text-decoration: none;
       color: #000000;
     }
@@ -232,6 +242,7 @@
     
     .description {
       margin-top: 25px;
+      line-height: 26px;
     }
     
     .column {
@@ -317,6 +328,7 @@
     .interested {
       text-align: center;
       padding: 55px 0 45px;
+      line-height: 24px;
     }
     
     .interested h2 {
@@ -373,11 +385,13 @@
       display: inline-block;
       vertical-align: center;
       font-size: 14px;
+      line-height: 26px;
     }
     
     .numbers label {
       width: 50%;
       font-size: 14px;
+      line-height: 26px;
     }
     
     .numbers p {
@@ -511,8 +525,18 @@
       border: 0px;
     }
     
-    .submit:hover {
+    .submit-search:hover {
       background-color: #669ec0;
+    }
+    
+    .submit-search:active {
+      background-color: #5496bd;
+      color: #7eb0cd;
+      outline: none;
+    }
+    
+    .submit-search:focus {
+      outline: none;
     }
     
     .map img {
@@ -801,6 +825,10 @@
     .hotel-info h2 {
       margin: 0px;
       padding: 5px;
+    }
+    
+    .hotel-info a {
+      text-decoration: none;
     }
     
     .hotel-book {
