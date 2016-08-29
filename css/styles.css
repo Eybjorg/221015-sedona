@@ -21,7 +21,7 @@
     
     body {
       font-size: 14px;
-      line-height: 26px;
+      line-height: 21px;
       font-family: "PT Sans Regular", "Arial", sans-serif;
       font-weight: normal;
       text-transform: uppercase;
@@ -240,16 +240,16 @@
     
     .column-reason {
       width: 33.33%;
+      min-height: 184px;
       box-sizing: border-box;
       background-color: #81b3d2;
-      padding: 36px 0px;
+      padding: 35px 25px;
       text-align: center;
     }
     
     .column-photo {
-      width: 66%;
-      height: 255px;
       width: 66.67%;
+      min-height: 255px;
       overflow: hidden;
       position: relative;
     }
@@ -367,8 +367,6 @@
       margin-right: auto;
       margin-left: auto;
     }
-    /* С ширинами в этом куске надо разобраться, потому что там куда-то явно уходит 5% лишних
-    UPD: кажется, все нашла*/
     
     .dates label {
       width: 25%;
@@ -413,7 +411,6 @@
       padding: 0px;
       font-size: 14px;
     }
-    /* конец куска с ширинами */
     
     .calendar:hover {
       color: #000000;
