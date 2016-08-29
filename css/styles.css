@@ -251,10 +251,15 @@
       width: 66%;
       height: 255px;
       overflow: hidden;
+      position: relative;
     }
     
     .column-photo img {
       width: 100%;
+      height: auto;
+      POSITION: ABSOLUTE;
+      TOP: 50%;
+      TRANSFORM: TRANSLATEY(-50%);
     }
     
     .rightfloat {
