@@ -42,7 +42,7 @@
       content: "— № " counter(item) " —";
       counter-increment: item;
       display: block;
-      margin: 15px auto;
+      margin: 17px auto;
     }
     
     h1 {
@@ -63,7 +63,7 @@
     }
     
     h3 {
-      font-size: 16px;
+      font-size: 21px;
       line-height: 21px;
       font-weight: normal;
       text-transform: uppercase;
@@ -239,9 +239,8 @@
     }
     
     .column-reason {
-      width: 33%;
-      */это вызывает проблему с белой полоской справа,
-      надо пофиксить как-то*/ min-height: 255px;
+      width: 33.33%;
+      box-sizing: border-box;
       background-color: #81b3d2;
       padding: 36px 0px;
       text-align: center;
@@ -250,6 +249,7 @@
     .column-photo {
       width: 66%;
       height: 255px;
+      width: 66.67%;
       overflow: hidden;
       position: relative;
     }
@@ -309,7 +309,7 @@
     
     .reasons li,
     .last-reasons li {
-      width: 33%;
+      width: 33.33%;
       float: left;
       text-align: center;
     }
@@ -317,6 +317,11 @@
     .interested {
       text-align: center;
       padding: 55px 0 45px;
+    }
+    
+    .interested h2 {
+      font-size: 30px;
+      line-height: 24px;
     }
     
     .map {
@@ -895,4 +900,10 @@
     input[type="checkbox"]:checked+ label::before {
       font-family: "symbols-sedona";
       content: "\2611";
+    }
+    
+    .input[type="checkbox"][disabled]+ label::before {
+      font-family: "symbols-sedona";
+      content: "\2610";
+      color: #4b5252;
     }
