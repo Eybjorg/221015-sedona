@@ -240,10 +240,10 @@
     
     .column-reason {
       width: 33.33%;
-      min-height: 184px;
+      min-height: 255px;
       box-sizing: border-box;
       background-color: #81b3d2;
-      padding: 35px 25px;
+      padding: 28px 25px;
       text-align: center;
     }
     
