@@ -357,7 +357,8 @@
       margin-right: auto;
       margin-left: auto;
     }
-    /* С ширинами в этом куске надо разобраться, потому что там куда-то явно уходит 5% лишних */
+    /* С ширинами в этом куске надо разобраться, потому что там куда-то явно уходит 5% лишних
+    UPD: кажется, все нашла*/
     
     .dates label {
       width: 25%;
@@ -376,23 +377,29 @@
     }
     
     .enter-date {
-      width: 70%;
+      width: 75%;
       position: relative;
       display: inline-block;
       vertical-align: center;
+    }
+    
+    .date-container {
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
     
     .calendar {
       position: absolute;
       right: 0;
       top: 0;
-      height: 40px;
-      width: 40px;
+      height: 38px;
+      width: 38px;
       background-color: #f2f2f2;
       color: #a9a9a9;
       text-align: center;
       vertical-align: center;
       margin: 0px;
+      padding: 0px;
       font-size: 14px;
     }
     /* конец куска с ширинами */
@@ -400,7 +407,7 @@
     .date {
       width: 100%;
       height: 20px;
-      padding: 10px;
+      padding: 9px;
       border: 0px;
       text-transform: uppercase;
       background-color: #f2f2f2;
@@ -461,8 +468,6 @@
     .submit:hover {
       background-color: #669ec0;
     }
-    
-    .submit:active {}
     
     .map img {
       width: 100%;
