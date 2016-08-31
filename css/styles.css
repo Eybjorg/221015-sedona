@@ -374,9 +374,11 @@
     @keyframes move-form {
       0% {
         top: -296%;
+        opacity: 0;
       }
       100% {
         top: 100%;
+        opacity: 1;
       }
     }
     
