@@ -367,7 +367,17 @@
       margin: 0 auto;
     }
     
+    @keyframes move-form {
+      0% {
+        top: -296%;
+      }
+      100% {
+        top: 100%;
+      }
+    }
+    
     .search-form {
+      display: none;
       position: absolute;
       top: 100%;
       left: 0;
@@ -375,6 +385,13 @@
       background: #ffffff;
       padding: 40px 55px;
       font-size: 0px;
+    }
+    
+    .search-form-display {
+      display: block;
+      animation-name: move-form;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
     }
     
     .search-form p {
@@ -435,8 +452,9 @@
       color: #000000;
     }
     
-    .calendar:active {
+    .calendar:focus {
       color: #81b3d2;
+      outline: none;
     }
     
     .date {
