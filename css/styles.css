@@ -262,6 +262,11 @@
       background-color: #81b3d2;
       padding: 28px 25px;
       text-align: center;
+      color: #ffffff;
+    }
+    
+    .column-reason h3 {
+      color: #ffffff;
     }
     
     .column-photo {
@@ -398,6 +403,7 @@
       animation-name: move-form;
       animation-duration: 0.5s;
       animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
     }
     
     .search-form p {
