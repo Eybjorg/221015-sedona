@@ -52,7 +52,7 @@
       <ul class="reasons clearfix">
         <li class="reason house">
           <h3 class="sprite-house sprite">Жилье</h3>
-          <p>Рекомендуем пожить в настоящем мотеле,<br> все как в кино!</p>
+          <p>Рекомендуем пожить в настоящем <br>мотеле, все как в кино!</p>
         </li>
         <li class="reason food">
           <h3 class="sprite sprite-food">Еда</h3>
@@ -60,7 +60,7 @@
         </li>
         <li class="reason souvenirs">
           <h3 class="sprite sprite-souvenirs">Сувениры</h3>
-          <p>Не только китайского,<br> но и местного производства!</p>
+          <p>Не только китайского, но и местного<br> производства!</p>
         </li>
       </ul>
 
@@ -100,35 +100,35 @@
               <div class="date-container">
                 <label for="date-in-id">Дата заезда:</label>
                 <div class="enter-date">
-                  <input type="text" name="date-in" id="date-in-id" class="date">
+                  <input type="text" name="date-in" id="date-in-id" class="date" value="24 апреля 2016" required>
                   <button type="button" class="calendar icon-calendar"></button>
                 </div>
               </div>
               <div class="date-container">
                 <label for="date-out-id">Дата выезда:</label>
                 <div class="enter-date">
-                  <input type="text" name="date-out" id="date-out-id" class="date">
+                  <input type="text" name="date-out" id="date-out-id" class="date" value="4 июля 2016" required>
                   <button type="button" class="calendar icon-calendar"></button>
                 </div>
               </div>
             </div>
             <div class="numbers clearfix">
-              <p class="leftfloat">
+              <div class="leftfloat adults">
                 <label for="adults-id">Взрослые:</label>
                 <span>
                   <button type="button" class="tune icon-minus"></button>
-                  <input type="text" name="adults" id="adults-id" class="quantity">
+                  <input type="text" name="adults" id="adults-id" class="quantity" value="2" required>
                   <button type="button" class="tune icon-plus"></button>
                 </span>
-              </p>
-              <p class="rightfloat">
+              </div>
+              <div class="rightfloat children">
                 <label for="children-id">Дети:</label>
                 <span>
                   <button type="button" class="tune icon-minus"></button>
-                  <input type="text" name="children" id="children-id" class="quantity">
+                  <input type="text" name="children" id="children-id" class="quantity" value="0" required>
                   <button type="button" class="tune icon-plus"></button>
                 </span>
-              </p>
+              </div>
             </div>
             <button type="submit" class="submit-search">Найти</button>
           </form>
