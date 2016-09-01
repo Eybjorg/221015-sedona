@@ -42,7 +42,10 @@
       content: "— № " counter(item) " —";
       counter-increment: item;
       display: block;
-      margin: 17px auto;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      margin-right: auto;
+      margin-left: auto;
     }
     
     h1 {
@@ -214,9 +217,12 @@
     }
     
     .active a,
-    .active a:hover,
-    .header-nav a:active {
+    .active a:hover {
       color: #9b8d84;
+    }
+    
+    .header-nav a:active {
+      color: #b2b2b2;
     }
     
     .header-nav img {
@@ -229,7 +235,7 @@
     .large-promo {
       background-color: #9bb4d0;
       background-image: url("../img/white-triangles.png"), url("../img/background-photo.jpg");
-      background-position: 50% 100%, 50% 0%;
+      background-position: 50% 100%, 50% 21%;
       background-repeat: no-repeat, no-repeat;
       background-size: 100% 60px, cover;
       height: 510px;
@@ -238,7 +244,7 @@
     }
     
     .large-promo img {
-      margin-top: 70px;
+      margin-top: 76px;
     }
     
     .lead {
@@ -260,7 +266,7 @@
       min-height: 255px;
       box-sizing: border-box;
       background-color: #81b3d2;
-      padding: 28px 25px;
+      padding: 30px;
       text-align: center;
       color: #ffffff;
     }
@@ -280,7 +286,7 @@
       width: 100%;
       height: auto;
       position: absolute;
-      top: 50%;
+      top: 47%;
       transform: translateY(-50%);
     }
     
@@ -306,15 +312,15 @@
     }
     
     .sprite-food::before {
-      background-position: -6px -10px;
+      background-position: -10px -10px;
     }
     
     .sprite-house::before {
-      background-position: -10px -100px;
+      background-position: -10px -110px;
     }
     
     .sprite-souvenirs::before {
-      background-position: -3px -192px;
+      background-position: -10px -210px;
     }
     
     .reasons {
@@ -324,7 +330,7 @@
     }
     
     .last-reasons {
-      padding: 40px 0px 55px;
+      padding: 30px 0px 40px;
       list-style: none;
       margin: 0px;
       background-color: #eeeeee;
@@ -339,7 +345,7 @@
     
     .interested {
       text-align: center;
-      padding: 55px 0 45px;
+      padding: 35px 0 40px;
       line-height: 24px;
     }
     
@@ -378,7 +384,7 @@
     
     @keyframes move-form {
       0% {
-        top: -296%;
+        top: 0%;
         opacity: 0;
       }
       100% {
@@ -394,7 +400,7 @@
       left: 0;
       right: 0;
       background: #ffffff;
-      padding: 40px 55px;
+      padding: 35px 55px;
       font-size: 0px;
     }
     
@@ -425,10 +431,19 @@
       width: 50%;
       font-size: 14px;
       line-height: 26px;
+      display: inline-block;
+      vertical-align: middle;
     }
     
-    .numbers p {
+    .adults,
+    .children {
       width: 50%;
+      margin: 15px 0px 55px;
+    }
+    
+    .children label {
+      padding-left: 50px;
+      box-sizing: border-box;
     }
     
     .enter-date {
@@ -481,6 +496,11 @@
       font-size: 14px;
       font-family: "PT Sans Bold", "Arial", sans-serif;
       border: none;
+    }
+    
+    .quantity {
+      font-size: 14px;
+      font-family: "PT Sans Bold", "Arial", sans-serif;
     }
     
     .date:hover,
@@ -973,8 +993,6 @@
       content: "\2611";
     }
     
-    .input[type="checkbox"][disabled]+ label::before {
-      font-family: "symbols-sedona";
-      content: "\2610";
+    input[type="checkbox"]:disabled+ label::before {
       color: #4b5252;
     }
