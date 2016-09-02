@@ -691,6 +691,7 @@
     
     .price-controls {
       margin-bottom: 20px;
+      margin-left: 10px;
       border: 2px solid #ffffff;
       border-radius: 2px;
       font-size: 0;
@@ -711,15 +712,17 @@
     .price-controls label {
       display: inline-block;
       font-size: 14px;
-      line-height: 38px;
+      line-height: 21px;
       vertical-align: top;
       cursor: pointer;
       width: 50%;
+      padding: 4px;
     }
     
     .range-controls {
       position: relative;
       margin-bottom: 32px;
+      margin-left: 10px;
     }
     
     .range-controls .scale {
