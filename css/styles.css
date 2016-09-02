@@ -217,8 +217,8 @@
       color: #81b3d2;
     }
     
-    .active a,
-    .active a:hover {
+    li.active a,
+    li.active a:hover {
       color: #9b8d84;
     }
     
@@ -646,12 +646,12 @@
     }
     
     .filter {
-      background: #698dae url("../img/filter-background.jpg") no-repeat;
+      background: #698dae url("../img/filter-background.jpg") no-repeat 50% 20%;
       background-size: cover;
-      min-height: 218px;
+      min-height: 208px;
       color: #ffffff;
       line-height: 21px;
-      padding: 0 6%;
+      padding: 10px 6% 0px;
     }
     
     .filter h3 {
@@ -661,7 +661,7 @@
     
     .infrastructure {
       max-width: 33%;
-      padding-right: 100px;
+      padding-right: 120px;
       box-sizing: border-box;
       float: left;
     }
@@ -677,7 +677,7 @@
       max-width: 33%;
       width: 328px;
       box-sizing: border-box;
-      padding-top: 30px;
+      padding-top: 20px;
       float: right;
       color: #ffffff;
     }
@@ -716,7 +716,7 @@
       vertical-align: top;
       cursor: pointer;
       width: 50%;
-      padding: 4px;
+      padding: 4px 0px;
     }
     
     .range-controls {
@@ -785,6 +785,10 @@
       width: 50%;
       padding-left: 20%;
       box-sizing: border-box;
+    }
+    
+    .price-controls .price-to {
+      padding-left: 18%;
     }
     
     .price-controls input {
@@ -859,9 +863,20 @@
       border: none;
     }
     
+    .sort a:active {
+      color: #b2b2b2;
+    }
+    
+    .sort a:hover {
+      color: #81b3d2;
+    }
+    
     .sort-arrow {
       vertical-align: middle;
       margin: 0px;
+      padding: 0px;
+      font-size: 23px;
+      line-height: 21px;
     }
     
     .sort-arrow a {
@@ -883,7 +898,7 @@
     }
     
     .hotel-photo {
-      padding: 30px 0px;
+      padding: 33px 0px;
       margin: 0px;
       float: left;
       width: 135px;
@@ -892,13 +907,13 @@
     }
     
     .hotel-description {
-      padding: 20px;
+      padding: 27px;
       float: left;
     }
     
     .hotel-info h2 {
       margin: 0px;
-      padding: 5px;
+      padding-left: 5px;
     }
     
     .hotel-info a {
@@ -916,13 +931,15 @@
     
     .hotel-book {
       padding: 5px;
+      font-size: 0px;
     }
     
     .hotel-info span {
       display: inline-block;
       vertical-align: middle;
-      padding-right: 20px;
+      padding-right: 30px;
       padding-left: 5px;
+      padding-top: 7px;
     }
     
     .hotel-additionalinfo {
@@ -930,6 +947,7 @@
       display: inline-block;
       vertical-align: middle;
       margin-right: 5px;
+      margin-top: 10px;
       padding: 3px 0;
       border: 0;
       background: #81b3d2;
@@ -937,25 +955,39 @@
       font-size: 14px;
       text-decoration: none;
       text-align: center;
+      font-family: "PT Sans Bold", "Arial", sans-serif;
     }
     
     .hotel-additionalinfo:hover {
       background: #669ec0;
     }
     
+    .hotel-additionalinfo:active {
+      background: #5496bd;
+      color: #88b6d1;
+    }
+    
     .hotel-bookbutton {
       width: 142px;
       padding: 3px 0;
+      margin-top: 10px;
       text-decoration: none;
       text-align: center;
       display: inline-block;
       vertical-align: middle;
       background: #766357;
       color: #Ffffff;
+      font-size: 14px;
+      font-family: "PT Sans Bold", "Arial", sans-serif;
     }
     
     .hotel-bookbutton:hover {
       background: #604e43;
+    }
+    
+    .hotel-bookbutton:active {
+      background: #503e33;
+      color: #857871;
     }
     
     .rating {
@@ -974,9 +1006,8 @@
     .rating p:last-child {
       background-color: #f2f2f2;
       margin-bottom: 29px;
-      margin-top: 20px;
-      padding-left: 15px;
-      padding-right: 15px;
+      margin-top: 45px;
+      padding: 3px 15px;
       text-align: center;
     }
     
