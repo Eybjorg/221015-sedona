@@ -818,7 +818,7 @@
     }
     
     .results-header {
-      padding: 28px 6%;
+      padding: 29px 6%;
       border-bottom: #e5e5e5 1px solid;
     }
     
@@ -894,26 +894,24 @@
     .hotel {
       border-bottom: #e5e5e5 1px solid;
       padding: 0 6%;
-      padding: 0 6%;
     }
     
     .hotel-photo {
-      padding: 33px 0px;
-      margin: 0px;
       float: left;
       width: 135px;
+      padding: 30px 0;
       font-size: 0px;
       line-height: 0px;
     }
     
     .hotel-description {
-      padding: 27px;
       float: left;
+      padding: 21px;
     }
     
     .hotel-info h2 {
       margin: 0px;
-      padding-left: 5px;
+      padding: 5px 10px;
     }
     
     .hotel-info a {
@@ -930,25 +928,24 @@
     }
     
     .hotel-book {
-      padding: 5px;
       font-size: 0px;
+      padding: 10px;
     }
     
     .hotel-info span {
       display: inline-block;
       vertical-align: middle;
-      padding-right: 30px;
-      padding-left: 5px;
-      padding-top: 7px;
+      padding-left: 10px;
+      padding-right: 25px;
     }
     
     .hotel-additionalinfo {
       width: 108px;
+      margin-top: 5px;
+      margin-right: 6px;
+      padding: 3px 0px;
       display: inline-block;
       vertical-align: middle;
-      margin-right: 5px;
-      margin-top: 10px;
-      padding: 3px 0;
       border: 0;
       background: #81b3d2;
       color: #Ffffff;
@@ -969,8 +966,8 @@
     
     .hotel-bookbutton {
       width: 142px;
-      padding: 3px 0;
-      margin-top: 10px;
+      padding: 3px 0px;
+      margin-top: 5px;
       text-decoration: none;
       text-align: center;
       display: inline-block;
@@ -992,23 +989,24 @@
     
     .rating {
       float: right;
+      padding: 28px 0px;
     }
     
     .rating p:first-child {
-      margin-bottom: 40px;
-      margin-top: 29px;
       text-align: right;
       color: #81b3d2;
       font-size: 19px;
       font-family: "symbols-sedona";
+      letter-spacing: 1px;
+      margin: 0px;
     }
     
     .rating p:last-child {
+      margin-top: 44px;
       background-color: #f2f2f2;
-      margin-bottom: 29px;
-      margin-top: 45px;
-      padding: 3px 15px;
       text-align: center;
+      margin-bottom: 0px;
+      padding: 3px 12px;
     }
     
     input[type="checkbox"] {
