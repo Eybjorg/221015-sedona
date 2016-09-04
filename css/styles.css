@@ -656,9 +656,26 @@ li.active a:hover {
   vertical-align: middle;
 }
 
-.footer-copyright img {
+.footer-copyright a {
   display: inline-block;
   vertical-align: middle;
+  width: 113px;
+  height: 39px;
+  background-image: url(../img/academy-sprite.png);
+  background-repeat: no-repeat;
+  background-position: -5px -5px;
+}
+
+.footer-copyright a:active {
+  background-position: -5px -54px;
+}
+
+.footer-copyright a:hover {
+  background-position: -5px -103px;
+}
+
+.footer-copyright img {
+  display: none;
 }
 
 .filter {
@@ -923,6 +940,7 @@ li.active a:hover {
 .hotel-description {
   float: left;
   padding: 21px;
+  max-width: 60%;
 }
 
 .hotel-info h2 {
