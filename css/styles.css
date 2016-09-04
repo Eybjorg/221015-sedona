@@ -276,12 +276,15 @@ li.active a:hover {
 
 .column {
   padding: 0;
+  display: table;
+  width: 100%;
+  min-height: 255px;
 }
 
 .column-reason {
+  display: table-cell;
   box-sizing: border-box;
   width: 33.33%;
-  min-height: 255px;
   padding: 15px;
   text-align: center;
   color: #fff;
@@ -293,6 +296,7 @@ li.active a:hover {
 }
 
 .column-photo {
+  display: table-cell;
   position: relative;
   overflow: hidden;
   width: 66.67%;
