@@ -656,7 +656,8 @@ li.active a:hover {
   vertical-align: middle;
 }
 
-.footer-copyright a {
+.footer-copyright a::before {
+  content: "";
   display: inline-block;
   vertical-align: middle;
   width: 113px;
@@ -666,16 +667,19 @@ li.active a:hover {
   background-position: -5px -5px;
 }
 
-.footer-copyright a:active {
+.footer-copyright a:active::before {
   background-position: -5px -54px;
 }
 
-.footer-copyright a:hover {
+.footer-copyright a:hover::before {
   background-position: -5px -103px;
 }
 
 .footer-copyright img {
-  display: none;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 .filter {
