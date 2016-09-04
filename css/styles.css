@@ -680,6 +680,7 @@ li.active a:hover {
 }
 
 .footer-copyright img {
+  display: inline-block;
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
   width: 1px;
