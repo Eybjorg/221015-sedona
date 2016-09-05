@@ -671,12 +671,12 @@ li.active a:hover {
   background-position: -5px -5px;
 }
 
-.footer-copyright a:active::before {
-  background-position: -5px -54px;
-}
-
 .footer-copyright a:hover::before {
   background-position: -5px -103px;
+}
+
+.footer-copyright a:active::before {
+  background-position: -5px -54px;
 }
 
 .footer-copyright img {
