@@ -900,6 +900,10 @@ li.active a:hover {
   border-bottom: 1px dotted #81b3d2;
 }
 
+.sort a:hover {
+  color: #81b3d2;
+}
+
 .sort .active a {
   color: #81b3d2;
   border: none;
@@ -907,10 +911,6 @@ li.active a:hover {
 
 .sort a:active {
   color: #b2b2b2;
-}
-
-.sort a:hover {
-  color: #81b3d2;
 }
 
 .sort-arrow {
